@@ -1,0 +1,146 @@
+@import "../variables.scss";
+.home-full{
+display: flex;
+flex-direction: row;
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 50px 0;
+  width: 80%;
+  background-color: white;
+  
+
+  .heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    // font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: $color3;
+  }
+}
+.div{
+  display: flex;
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  
+  
+  .couponbig {
+    
+    max-width: 40%;
+    min-width: 35%;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-left: 5px;
+  
+ .close 
+ {
+  display: flex;
+  flex-direction: row-reverse;
+   img{
+       padding: 0;
+       margin: 0;
+       width: 25px;
+       padding-bottom: 5px;
+  }
+ }
+  .wrap {
+    display: flex;
+    // margin-top: 20px;
+  
+    .img {
+      text-align: left;
+    img {
+      max-width: 100%;
+      height: auto;
+     
+      border-radius: 15px;
+      margin-right: 20px;
+    }
+  }
+  
+  .details {
+    flex: 1;
+    padding-left: 10px;
+  
+    .email{
+      font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    }
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .category,.website{
+    margin: 8px 0px;
+    font-weight:600;
+    color: #666;
+     span{
+      color: black;
+     }
+  }
+  
+  // .description {
+  //   font-size: 16px;
+  // }
+  
+  .valid {
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+  }
+  .code{
+    margin-top: 4px;
+    padding:7px 10px;
+
+    background-color: #61778c; // Use your color variable $color3
+    color: #EEF4ED;
+    width:fit-content;
+    border-radius: 5px;
+  }
+}
+}
+  .description{
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  button {
+    
+    margin-top: 15px;
+    margin-left: 48%;
+    padding: 10px 20px;
+    background-color: #ea563c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+      background-color: #da4316;
+    }
+  }
+}
+}
+}

@@ -1,0 +1,251 @@
+@import "../variables.scss";
+
+.user{
+  margin: auto;
+  padding-top: 50px;
+  width: 70%;
+ background-color: azure;
+ 
+  .user-profile {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    // margin-bottom: 25px;
+    padding: 20px 0;
+    .pic{
+      width: 33%;
+      display: flex;
+      img{
+        height: 150px;
+        width: 150px;
+        margin: auto;
+      }
+    }
+    .details{
+      
+      width: 60%;
+      .div1{
+        display: flex;
+        flex-direction: row;
+       
+       .div2{
+        margin: auto;
+        margin-left: 10px;
+        h1{
+          font-size: 2 rem;
+          margin-bottom: 15px;
+          
+        }
+      }
+      .div3{
+        .logout-button {
+          background-color: #b25a5a; /* Darker red background color */
+          color: #fff;
+          padding: 10px 20px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        
+        .logout-button:hover {
+          background-color: #822828; /* Slightly darker red color on hover */
+        }
+        
+        .logout-button:active {
+          background-color: #741f1f; /* Even darker red color on button press */
+        }
+        
+      }
+    }
+      div{
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          li{
+            list-style: none;
+            margin-right: 10px;
+            span{
+              margin-right: 5px;
+              font-size: 1.1rem;
+              font-weight: 600;
+              
+            }
+          }
+        }
+      }
+      section{
+        margin: 20px 0;
+      }
+    }
+
+  }
+  hr{
+    width: 85%;
+    margin: auto;
+    border: 1px solid grey;
+    border-top: 0;
+  }
+  .addcoupon{
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+   
+    button{
+      margin-top: 5px;
+      background-color: #405b8b;
+      color:  #fff; ;
+    
+    }
+    button:hover {
+      background-color: #2a477b /* Slightly darker red color on hover */
+    }
+  }
+  .wrap{
+     margin-left: 30px;
+    display: flex;
+  .user-coupons {
+    // margin: 20px 0;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 50px;
+    ul{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      li{
+        list-style: none;
+        cursor: pointer;
+        margin: 0 10px;
+        &.active{
+          border-bottom: 2px solid grey;
+        }
+      }
+
+    }
+  }
+  }
+  .div{
+    display: flex;
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    
+    
+    .couponbig {
+      
+      max-width: 40%;
+      min-width: 35%;
+      background-color: #f9f9f9;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      // padding-left: 5px;
+    
+   .close 
+   {
+    display: flex;
+    flex-direction: row-reverse;
+     img{
+         padding: 0;
+         margin: 0;
+         width: 25px;
+         padding-bottom: 5px;
+    }
+   }
+    .wrap {
+      display: flex;
+      // margin-top: 20px;
+    
+      .img {
+        text-align: left;
+      img {
+        max-width: 100%;
+        height: auto;
+       
+        border-radius: 15px;
+        margin-right: 20px;
+      }
+    }
+    
+    .details {
+      flex: 1;
+      padding-left: 10px;
+    
+      .email{
+        font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+      }
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .category,.website{
+      margin: 8px 0px;
+      font-weight:600;
+      color: #666;
+       span{
+        color: black;
+       }
+    }
+    
+    // .description {
+    //   font-size: 16px;
+    // }
+    
+    .valid {
+      margin: 10px 0px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #888;
+    }
+    .code{
+      margin-top: 4px;
+      padding:7px 10px;
+
+      background-color: #61778c; // Use your color variable $color3
+      color: #EEF4ED;
+      width:fit-content;
+      border-radius: 5px;
+    }
+  }
+}
+    .description{
+      margin-left: 30px;
+      margin-top: 15px;
+    }
+    button {
+      
+      margin-top: 15px;
+      margin-left: 15vw;
+      align-self: center;
+      padding: 10px 20px;
+      background-color: #ea563c;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover{
+        background-color: #da4316;
+      }
+    }
+  }
+  }
+}

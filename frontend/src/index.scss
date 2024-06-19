@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './variables.scss';
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    
+}
+body{
+    background-color: $color4;
+  //   background-image: url('/assets/noun-dot-2435540-removebg-preview.png');
+  // background-size: 40px;
+// background-size: auto ;
+// background-position: right 10px center;
+}
+

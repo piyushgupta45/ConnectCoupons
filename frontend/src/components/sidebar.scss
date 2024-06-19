@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.options{
+    background-color: $color4;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    // margin-right: 80px;
+    .options-wrap{
+      border-right: 1px solid #8da9c4;
+
+      h2{
+        margin: 10px;
+        font-weight:bolder;
+        font-size:xx-large;
+     }
+     
+     li{
+       margin: 15px;
+       font-weight:500;
+       font-size: large;
+       &:hover{
+         color: rgb(57, 84, 116);
+         cursor: pointer;
+        }
+      }
+    }
+  }
