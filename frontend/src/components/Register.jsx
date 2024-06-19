@@ -12,7 +12,7 @@ function Register() {
  {
 
   event.preventDefault()
-   const res=await fetch('connect-coupons-8k8e-server.vercel.app/register',{
+   const res=await fetch('https://connect-coupons-8k8e-server.vercel.app/register',{
    method:'POST',  
    headers:{
         'Content-Type':'application/json',

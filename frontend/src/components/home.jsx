@@ -49,7 +49,7 @@ const Home =() => {
     const fetchData = async () => {
       try {
         
-        const response = await fetch(`connect-coupons-8k8e-server.vercel.app/users/get/${category}`);
+        const response = await fetch(`https://connect-coupons-8k8e-server.vercel.app/users/get/${category}`);
       
         if (!response.ok) {
           throw new Error('Failed to fetch data');
