@@ -13,7 +13,7 @@ const Login = () => {
   async function loginUser(event) {
     event.preventDefault();
     try {
-      const res = await fetch("http://localhost:5000/login", {
+      const res = await fetch("connect-coupons-8k8e-server.vercel.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -23,7 +23,7 @@ const Login = () => {
           password,
         }),
       });
-
+       
       const data = await res.json();
       console.log(data.user)
        if(data.user)

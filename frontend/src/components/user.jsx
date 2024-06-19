@@ -36,7 +36,7 @@ const User = () => {
   const handleDelete=async()=>{
       console.log('ss')
       try {
-        const response = await fetch(`http://localhost:5000/users/delete/${info._id}`,{method: 'DELETE'});
+        const response = await fetch(`connect-coupons-8k8e-server.vercel.app/users/delete/${info._id}`,{method: 'DELETE'});
         
       } catch (error) {
         console.error('Error occurred during fetch:', error);
@@ -64,8 +64,8 @@ const User = () => {
     }
   
         if (cur) {
-          console.log(`http://localhost:5000/users/getuser/${userId}/${category}`)
-          const response = await fetch(`http://localhost:5000/users/getuser/${userId}/${category}`);
+          console.log(`connect-coupons-8k8e-server.vercel.app/users/getuser/${userId}/${category}`)
+          const response = await fetch(`connect-coupons-8k8e-server.vercel.app/users/getuser/${userId}/${category}`);
           
           if(!response.ok) {
             throw new Error('Failed to fetch data');

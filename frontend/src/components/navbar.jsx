@@ -48,7 +48,7 @@ const Navbar = () => {
     const handleSearch = async () => {
       console.log("down");
       try {
-        const response = await fetch("http://localhost:5000/users/allusers");
+        const response = await fetch("connect-coupons-8k8e-server.vercel.app/users/allusers");
 
         if (!response.ok) {
           throw new Error("Failed to fetch data");

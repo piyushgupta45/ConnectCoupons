@@ -48,10 +48,9 @@ const Home =() => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log(category)
-        console.log(`http://localhost:5000/users/get/${category}`)
-        const response = await fetch(`http://localhost:5000/users/get/${category}`);
-        console.log(response[0]);
+        
+        const response = await fetch(`connect-coupons-8k8e-server.vercel.app/users/get/${category}`);
+      
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
