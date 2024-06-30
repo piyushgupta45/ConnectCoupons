@@ -44,7 +44,7 @@ function AddCoupon() {
     
     console.log(cur)
     const date=endDate.toString()
-    const res=await fetch('connect-coupons-8k8e-server.vercel.app/users/post',{
+    const res=await fetch('https://connect-coupons-8k8e-server.vercel.app/users/post',{
       method:'POST',  
       headers:{
            'Content-Type':'application/json',
